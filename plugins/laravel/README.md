@@ -10,6 +10,8 @@ plugins=(... laravel)
 |:-:|:-:|
 | `artisan`  | `php artisan`  |
 | `pas`  | `php artisan serve` |
+| `pad`  | `php artisan dev` |
+| `pats`  | `php artisan test` |
 
 ## Database
 
@@ -20,6 +22,7 @@ plugins=(... laravel)
 | `pamfs`  |  `php artisan migrate:fresh --seed` |
 | `pamr`  |  `php artisan migrate:rollback` |
 | `pads`  |  `php artisan db:seed` |
+| `padw`  |  `php artisan db:wipe` |
 
 ## Makers
 
@@ -29,6 +32,18 @@ plugins=(... laravel)
 | `pamc`  |  `php artisan make:controller` |
 | `pams`  |  `php artisan make:seeder` |
 | `pamt`  |  `php artisan make:test` |
+| `pamfa`  |  `php artisan make:factory` |
+| `pamp`  |  `php artisan make:policy` |
+| `pame`  |  `php artisan make:event` |
+| `pamj`  |  `php artisan make:job` |
+| `paml`  |  `php artisan make:listener` |
+| `pamn`  |  `php artisan make:notification` |
+| `pamcl` | `php artisan make:class` |
+| `pamen` | `php artisan make:enum` |
+| `pami`  | `php artisan make:interface` |
+| `pamtr` | `php artisan make:trait` |
+| `pamv` | `php artisan make:view` |
+| `pammig` | `php artisan make:migration` |
 
 ## Clears
 
@@ -38,3 +53,15 @@ plugins=(... laravel)
 | `pacoc`  |  `php artisan config:clear` |
 | `pavic`  |  `php artisan view:clear` |
 | `paroc`  |  `php artisan route:clear` |
+| `paopc`  |  `php artisan optimize:clear` |
+
+## Queues
+
+| Alias | Description |
+|:-:|:-:|
+| `paqf`  |  `php artisan queue:failed` |
+| `paqft`  |  `php artisan queue:failed-table` |
+| `paql`  |  `php artisan queue:listen` |
+| `paqr`  |  `php artisan queue:retry` |
+| `paqt`  |  `php artisan queue:table` |
+| `paqw`  |  `php artisan queue:work` |
